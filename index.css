@@ -77,6 +77,12 @@ body {
   
   .button1 {
     color: hsl(31, 77%, 52%);
+    text-decoration: none;
+  }
+
+  .button1 > a{
+    color: hsl(31, 77%, 52%);
+    text-decoration: none;
   }
   
   .button2 {
@@ -85,6 +91,12 @@ body {
   
   .button3 {
     color: hsl(179, 100%, 13%);
+  }
+
+  .button1 > a:hover {
+    border: 2px solid hsl(0, 0%, 95%);
+    background-color: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
   }
   
   .button1:hover {
