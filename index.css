@@ -113,12 +113,12 @@ main {
 
 /* RESPONSIVENESS AND MEDIA QUERIES */
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 375px){
   .main-section {
     width: 100%;
   }
   .container {
-    width: 75%;
+    width: 50%;
     padding: 1.5rem;
     margin-bottom: 2em;
   }
