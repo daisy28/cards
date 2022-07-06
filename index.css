@@ -12,6 +12,25 @@ body {
 
 /* LAYOUT */
 
+header{
+  background: hsl(179, 100%, 13%);
+  display:flex;
+  padding:1em;
+}
+
+nav{
+  justify-content: space-between;
+  margin: auto;
+}
+
+
+
+nav > a{
+  margin: 0 30px;
+  text-decoration:none;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
 main {
   margin: auto;
   width: 100%;
@@ -75,10 +94,8 @@ main {
   cursor: pointer;
 }
 
-.button1 > a {
+.button1 {
   color: hsl(31, 77%, 52%);
-  text-decoration: none;
-  border: none;
 }
 
 .button2 {
@@ -94,13 +111,9 @@ main {
   color: hsl(0, 0%, 95%);
 }
 
-.button1 > a:hover {
-  background-color: hsl(31, 77%, 52%);
-  color: hsl(0, 0%, 95%);
-}
-
 .button1:hover {
   background-color: hsl(31, 77%, 52%);
+  color: hsl(0, 0%, 95%);
 }
 
 .button2:hover {
